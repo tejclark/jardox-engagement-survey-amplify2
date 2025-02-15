@@ -19,7 +19,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-async function putData(formData: FormData) {
+async function putData(formData: object) {
   return await client.models.SurveyEntry.create(formData);
 
 }
@@ -46,7 +46,7 @@ export default function Survey() {
     });
 
     try {
-      const promise = putData(formData);
+      putData(jsonObject);
       
       setTimeout(() => {
         setLoading(false);
