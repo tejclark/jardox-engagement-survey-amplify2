@@ -33,7 +33,7 @@ export default function Header() {
           </div>
           <div className="sm:ml-6">
             <ul className="flex space-x-2">
-              {languages.map((l, index) => {
+              {languages.map((l) => {
                 return (
                   <li key={l}>
                     <button onClick={changeLanguage(l)} className={i18n.language === l ? "ring-white ring-2 block p-0.5 rounded-full" : "block p-0.5 rounded-full"}>
