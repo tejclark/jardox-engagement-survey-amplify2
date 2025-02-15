@@ -1,0 +1,66 @@
+{
+  "title": "Sondaj privind implicarea echipei 2025",
+  "survey": {
+    "introduction": {
+      "title": "Sondaj privind implicarea echipei 2025",
+      "text_1": "Scopul acestui sondaj este de a colecta feedback deschis și onest de la echipa noastră cu privire la o serie de domenii, inclusiv bunăstarea la locul de muncă, dezvoltarea, comunicarea și munca în echipă.",
+      "text_2": "Vom folosi rezultatele sondajului pentru a recunoaște ceea ce funcționează bine și pentru a evidenția ceea ce trebuie îmbunătățit, pentru a continua să ne asigurăm că Jardox este un loc minunat de lucru pentru toată lumea.",
+      "text_3": "Apreciem foarte mult orice participare la acest sondaj și sperăm că răspunsurile dvs. ne vor ajuta să înțelegem mai bine forța de muncă Jardox.",
+      "start_button": "Deschiderea unei anchete",
+      "coming_soon": "In curand",
+      "closed": "Sondajul este acum închis."
+    },
+
+    "about_your_role": "Despre rolul tău",
+    "site": "Vă rugăm să selectați ce site vi se aplică:",
+    "sevenoaks": "Sevenoaks",
+    "wincanton": "Wincanton",
+    "department": "Vă rugăm să selectați departamentul care se potrivește cel mai bine rolului dvs.:",
+    "factory": "Rolul fabricii și igienei -",
+    "customer_service": "Servicii pentru clienți, conturi și oameni",
+    "warehouse": "Depozit",
+    "planning": "Planificare, Inginerie, IT, Achiziții",
+    "quality": "Calitate & Tehnic",
+    "npd": "Vânzări, Dezvoltare de produse noi",
+    "handle_food": "Te ocupi de mâncare ca parte a rolului tău la Jardox?",
+    "yes": "da",
+    "no": "Nu",
+
+    "statements": "Vă rugăm să selectați un răspuns care descrie cel mai bine cum vă simțiți în legătură cu fiecare afirmație",
+    "strongly_agree": "Complet de acord",
+    "agree": "De Acord",
+    "neutral": "Neutru",
+    "disagree": "dezacord",
+    "strongly_disagree": "puternic dezacord",
+
+    "expected_of_me": "Știu ce se așteaptă de la mine la locul de muncă.",
+    "materials_needed": "Am materialele și echipamentele de care am nevoie pentru a-mi face treaba corect.",
+    "opportunity_best": "La locul de muncă, am ocazia să fac ceea ce fac cel mai bine în fiecare zi.",
+    "receive_recognition": "În ultimele șapte zile, am primit recunoaștere sau laude pentru că am făcut o treabă bună.",
+    "supervisor_cares": "Supraveghetorul meu, sau cineva de la locul de muncă, pare să-i pese de mine ca persoană.",
+    "encourages_development": "Există cineva la locul de muncă care îmi încurajează dezvoltarea.",
+    "opinions_count": "La locul de muncă, opiniile mele par să conteze.",
+    "job_important": "Scopul Jardox mă face să simt că slujba mea este importantă.",
+    "quality_work": "Colegii mei se angajează să facă o muncă de calitate.",
+    "good_friend": "Am un prieten foarte bun la locul de muncă.",
+    "progress_check": "În ultimele șase luni, cineva mi-a vorbit despre progresul meu.",
+    "learn_and_grow": "În ultimul an, am avut ocazia să învăț și să cresc.",
+    "opportunities_to_grow": "Există oportunități de a-mi dezvolta cariera la Jardox.",
+    "paid_rewarded": "Sunt bine plătit și răsplătit.",
+    "happy_facilities": "Sunt multumit de facilitatile puse la dispozitie pentru pauzele mele.",
+    "recommend_jardox": "Aș recomanda Jardox ca angajator.",
+
+    "handle_food_statements": "Deoarece ați indicat că vă ocupați de alimente ca parte a rolului dvs., vă rugăm să răspundeți la următoarele întrebări",
+    "good_food_safety": "Conducerea superioară promovează importanța bunelor practici în materie de siguranță alimentară.",
+    "good_food_safety_job_done": "Pot demonstra bune practici de siguranță alimentară și de calitate în același timp cu posibilitatea de a-mi face treaba.",
+    "jardox_safety_standards": "Jardox are standarde ridicate de siguranță alimentară.",
+    "improvements_food_safety": "Sunt în măsură să sugerez îmbunătățiri pentru a încuraja o mai bună siguranță alimentară.",
+    "food_safety_seriously": "Oamenii din echipa mea iau în serios comunicările privind siguranța alimentară.",
+    "understand_food_safety": "Sunt încrezător că oamenii din echipa mea înțeleg comunicările privind siguranța alimentară.",
+    "food_audits": "Sunt conștient de rezultatele pe care le obținem în auditurile alimentare.",
+
+    "comments": "Vă rugăm să indicați aici orice comentarii pe care le aveți despre lucrul la Jardox:",
+    "submit": "Trimite sondaj",
+    "thanks": "Mulțumesc. Sondaj finalizat !"
+  }
+}

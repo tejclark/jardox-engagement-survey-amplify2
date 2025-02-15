@@ -1,0 +1,66 @@
+{
+  "title": "Ankieta zaangażowania zespołu 2025",
+  "survey": {
+    "introduction": {
+      "title": "Ankieta zaangażowania zespołu 2025",
+      "text_1": "Celem tego badania jest zebranie otwartych i uczciwych informacji zwrotnych od naszego zespołu na temat różnych dziedzin, w tym dobrostanu miejsca pracy, rozwoju, komunikacji i pracy zespołowej.",
+      "text_2": "Wykorzystamy wyniki ankiety, aby rozpoznać, co działa dobrze i podkreślić, co wymaga poprawy, aby nadal zapewniać, że Jardox jest doskonałym miejscem do pracy dla wszystkich..",
+      "text_3": "Bardzo doceniamy udział w tej ankiecie i mamy nadzieję, że twoje odpowiedzi pomogą w zrozumieniu siły roboczej Jardox’.",
+      "start_button": "rozpocząć ankietę",
+      "coming_soon": "Wkrótce",
+      "closed": "Ankieta jest teraz zamknięta."
+    },
+
+    "about_your_role": "O twojej roli",
+    "site": "Wybierz, która strona dotyczy Ciebie:",
+    "sevenoaks": "Sevenoaks",
+    "wincanton": "Wincanton",
+    "department": "Wybierz dział, który najbardziej pasuje do Twojej roli:",
+    "factory": "Fabryka & Higiena Żywności–",
+    "customer_service": "Obsługa Klienta, Księgowość, Zasoby Ludzkie",
+    "warehouse": "Magazyn",
+    "planning": "Planowanie, Inżynieria, Informatyka, Dział Zakupów",
+    "quality": "Kontrola Jakości & Dział Techniczny",
+    "npd": "Sprzedaż, Dział Rozwoju Produktu",
+    "handle_food": "Czy zajmujesz się jedzeniem w ramach swojej roli w Jardox?",
+    "yes": "Tak",
+    "no": "Nie",
+
+    "statements": "Wybierz odpowiedź, która najlepiej opisuje, co myślisz o każdym stwierdzeniu",
+    "strongly_agree": "Zdecydowanie się zgadzam",
+    "agree": "Zgadzam się",
+    "neutral": "Neutralny",
+    "disagree": "Nie zgadzam się",
+    "strongly_disagree": "Zdecydowanie się nie zgadzam",
+
+    "expected_of_me": "Wiem, czego się ode mnie oczekuje w pracy.",
+    "materials_needed": "Mam materiały i sprzęt, których potrzebuję, aby dobrze wykonywać swoją pracę.",
+    "opportunity_best": "W pracy mam okazję robić to, co robię najlepiej każdego dnia ",
+    "receive_recognition": "W ciągu ostatnich siedmiu dni otrzymałem/am uznanie lub pochwałę za dobrą pracę.",
+    "supervisor_cares": "Mój przełożony lub ktoś w pracy wydaje się troszczyć o mnie jako osobę.",
+    "encourages_development": "W pracy jest ktoś, kto zachęca do mojego rozwoju.",
+    "opinions_count": "W pracy moje opinie wydają się liczyć.",
+    "job_important": "Cel Jardox sprawia, że czuję, że moja praca jest ważna.",
+    "quality_work": "Moi koledzy są zaangażowani w wykonywanie wysokiej jakości pracy.",
+    "good_friend": "Mam bardzo dobrego przyjaciela w pracy.",
+    "progress_check": "W ciągu ostatnich sześciu miesięcy ktoś rozmawiał ze mną o moich postępach.",
+    "learn_and_grow": "W zeszłym roku miałem/am okazję uczyć się i rozwijać.",
+    "opportunities_to_grow": "W Jardox są możliwości rozwoju mojej kariery.",
+    "paid_rewarded": "Jestem dobrze opłacany/a i nagradzany/a.",
+    "happy_facilities": "Jestem zadowolony/a z udogodnień zapewnionych na moje przerwy.",
+    "recommend_jardox": "Poleciłbym/łabym Jardox jako pracodawcę.",
+
+    "handle_food_statements": "Ponieważ wskazałeś/aś, że zajmujesz się jedzeniem w ramach swojej roli, odpowiedz na następujące pytania.",
+    "good_food_safety": "Kierownictwo wyższego szczebla promuje znaczenie dobrych praktyk bezpieczeństwa żywności.",
+    "good_food_safety_job_done": "Wykonując moja pracę mogę równocześnie wykazać się dobrymi praktykami bezpieczeństwa i zadbac o jakosc żywności.",
+    "jardox_safety_standards": "Jardox ma wysokie standardy bezpieczeństwa żywności.",
+    "improvements_food_safety": "Jestem w stanie zasugerować ulepszenia, aby zwiększyć bezpieczeństwo żywności.",
+    "food_safety_seriously": "Ludzie w moim zespole poważnie podchodzą do komunikacji dotyczącej bezpieczeństwa żywności.",
+    "understand_food_safety": "Jestem przekonany/a, że ludzie w moim zespole rozumieją komunikację dotyczącą bezpieczeństwa żywności.",
+    "food_audits": "Zdaję sobie sprawę z wyników, jakie osiągamy w audytach żywności.",
+
+    "comments": "Proszę wskazać tutaj wszelkie komentarze dotyczące pracy w Jardox:",
+    "submit": "Prześlij ankietę",
+    "thanks": "Dziękuję. Ankieta zakończony"
+  }
+}

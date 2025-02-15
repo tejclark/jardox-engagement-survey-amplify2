@@ -1,0 +1,67 @@
+{
+  "title": "Team Engagement Survey 2025",
+  "survey": {
+    "introduction": {
+      "title": "Team Engagement Survey 2025",
+      "text_1": "The purpose of this survey is to collect your open and honest feedback.",
+      "text_2": "We will use the results of the survey to help us understand what works well at Jardox, and we will also look to make improvements, ensuring that we have a great place to work, both now and in the future. ",
+      "text_3": "We greatly appreciate your participation in this survey.",
+      "start_button": "Start Survey",
+      "coming_soon": "Coming soon",
+      "closed": "The survey is now closed."
+    },
+
+    "about_your_role": "About your role",
+    "site": "Please select which site applies to you:",
+    "sevenoaks": "Sevenoaks",
+    "wincanton": "Wincanton",
+    "department": "Please select the department which best fits your role:",
+    "factory": "Factory, Hygiene",
+    "customer_service": "Customer Services, Accounts, People",
+    "warehouse": "Warehouse",
+    "planning": "Planning, Engineering, IT, Purchasing",
+    "quality": "Quality, Technical",
+    "npd": "NPD, Sales",
+    "handle_food": "Do you handle food as part of your role at Jardox?",
+    "yes": "Yes",
+    "no": "No",
+
+    "statements": "Please select an answer which best describes how you feel about each statement",
+    "strongly_agree": "Strongly Agree",
+    "agree": "Agree",
+    "neutral": "Neutral",
+    "disagree": "Disagree",
+    "strongly_disagree": "Strongly Disagree",
+
+    "expected_of_me": "I know what is expected of me at work.",
+    "materials_needed": "I have the materials and equipment I need to do my work right.",
+    "opportunity_best": "At work, I have the opportunity to do what I do best every day.",
+    "receive_recognition": "In the last seven days, I have received recognition or praise for doing good work.",
+    "supervisor_cares": "My supervisor, or someone at work, seems to care about me as a person.",
+    "encourages_development": "There is someone at work who encourages my development.",
+    "opinions_count": "At work, my opinions seem to count.",
+    "job_important": "The purpose of Jardox makes me feel my job is important.",
+    "quality_work": "My colleagues are committed to doing quality work.",
+    "good_friend": "I have a very good friend at work.",
+    "progress_check": "In the last six months, someone has talked to me about my progress.",
+    "learn_and_grow": "In this last year, I have had opportunities to learn and grow.",
+    "opportunities_to_grow": "There are opportunities to grow my career at Jardox.",
+    "paid_rewarded": "I am well paid and rewarded.",
+    "happy_facilities": "I am happy with the facilities provided for my breaks.",
+    "recommend_jardox": "I would recommend Jardox as an employer.",
+
+    "handle_food_statements": "As you have indicated that you handle food as part of your role, please answer the following questions",
+    "good_food_safety": "Senior management promotes the importance of good food safety practices.",
+    "good_food_safety_job_done": "I can show good food safety and quality practices at the same time as being able to get my job done.",
+    "jardox_safety_standards": "Jardox has high food safety standards.",
+    "improvements_food_safety": "I am able to suggest improvements to encourage better food safety.",
+    "food_safety_seriously": "People in my team take communications regarding food safety seriously.",
+    "understand_food_safety": "I am confident that people in my team understand communications regarding food safety.",
+    "food_audits": "I am aware of the results we achieve in food audits.",
+
+    "comments": "Please indicate here any comments you have about working at Jardox:",
+    "error": "Error getting translation",
+    "submit": "Submit survey",
+    "thanks": "Thank you. Survey completed!"
+  }
+}
