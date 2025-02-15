@@ -3,7 +3,6 @@ import { type ClientSchema, a, defineData } from '@aws-amplify/backend';
 const schema = a.schema({
   SurveyEntry: a
     .model({
-      uuid: a.id().required(),
       department: a.string().default('-- Not Set --'),
       site: a.string().default('-- Not Set --'),
       handle_food: a.string().default('-- Not Set --'),
@@ -42,6 +41,7 @@ export const data = defineData({
   schema,
   authorizationModes: {
     defaultAuthorizationMode: 'apiKey',
-    apiKeyAuthorizationMode: { expiresInDays: 30 }
+    apiKeyAuthorizationMode: { expiresInDays: 30 },
   },
+  logging: true
 });

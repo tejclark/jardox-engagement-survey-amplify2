@@ -11,7 +11,7 @@ import { CheckCircleIcon } from "@heroicons/react/24/outline";
 import Spinner from './Spinner';
 
 import { generateClient } from "aws-amplify/data";
-import type { Schema } from "@/amplify/data/resource";
+import type { Schema } from "../../amplify/data/resource";
 
 const client = generateClient<Schema>()
 
@@ -21,6 +21,7 @@ function classNames(...classes: string[]) {
 
 async function putData(formData: FormData) {
   return await client.models.SurveyEntry.create(formData);
+
 }
 
 export default function Survey() {
@@ -37,8 +38,16 @@ export default function Survey() {
     event.preventDefault();
     setLoading(true);
     const formData = new FormData(event.target as HTMLFormElement);
+
+    const jsonObject: Record<string, string> = {};
+
+    formData.forEach((value: FormDataEntryValue, key) => {
+      jsonObject[key] = value.toString()
+    });
+
     try {
-      await putData(formData);
+      const promise = putData(formData);
+      
       setTimeout(() => {
         setLoading(false);
         navigate("/submitted")
