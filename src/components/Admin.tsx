@@ -16,7 +16,7 @@ import { ArrowDownTrayIcon, ArrowRightStartOnRectangleIcon } from "@heroicons/re
 import { generateClient } from "aws-amplify/data";
 import type { Schema } from "../../amplify/data/resource";
 
-import xlsx from "json-as-xlsx"
+import xlsx, { IContent } from "json-as-xlsx"
 
 const client = generateClient<Schema>()
 
@@ -36,7 +36,7 @@ export default function Admin() {
 
     setIsDownloading(true);
 
-    const content = surveyData.map((item) => item);
+    const content: IContent[] = surveyData as IContent[];
 
     const data = [
       {
