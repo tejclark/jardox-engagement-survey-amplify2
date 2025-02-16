@@ -188,9 +188,13 @@ export default function Admin() {
                   </div>
                 </div>
               ) : (
-                <div className="px-4 sm:px-6 lg:px-8">
-                  <div className="flex justify-start mb-10">
+                <div className="max-w-7xl px-4 sm:px-6 lg:px-8">
+                  <div className="flex justify-between mb-10">
                     <p>No survey entries found.</p>
+                    <button type="button" className="cursor-pointer flex justify-center items-center rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-100" onClick={signOut}>
+                      <ArrowRightStartOnRectangleIcon className="h-5 w-5 mr-2" aria-hidden="true" />
+                      <span>Sign out</span>
+                    </button>
                   </div>
                 </div>
               )}
