@@ -53,16 +53,18 @@ export default function Admin() {
     xlsx(data, settings, () => {
       setTimeout(() => {
         setIsDownloading(false)
-      }, 1000);      
+      }, 500);      
     })
   }
 
   const fetchSurveyData = async () => {
     setIsLoading(true);
     try {
+      console.log('Fetching survey data');
       const { data: surveyEntries }  = await client.models.SurveyEntry.list({
         authMode: "userPool"
       });
+
       if (surveyEntries.length) {
         setSurveyData(surveyEntries);
         const keys = Object.keys(surveyEntries[0]);
@@ -83,7 +85,7 @@ export default function Admin() {
       try {
         await getCurrentUser();
         setIsAuthenticated(true);
-        await fetchSurveyData();
+        fetchSurveyData();
       } catch {
         setIsAuthenticated(false);
       }
@@ -94,10 +96,11 @@ export default function Admin() {
   useEffect(() => {
     const listener = (data: { payload: { event: string } }) => {
       const { event } = data.payload;
-      if (event === 'signIn') {
+      console.log(event);
+      if (event === 'signedIn') {
         setIsAuthenticated(true);
         fetchSurveyData();
-      } else if (event === 'signOut') {
+      } else if (event === 'signedOut') {
         setIsAuthenticated(false);
         setSurveyData([]);
       }
@@ -126,7 +129,7 @@ export default function Admin() {
                     <div className="sm:flex-auto">
                       <h1 className="text-2xl font-semibold text-gray-900">Survey Entries ({surveyData.length})</h1>
                       <p className="mt-2 text-sm text-gray-700">
-                        A list of survey entries. Press export to download as an Excel file.
+                        A list of survey entries.
                       </p>
                     </div>
                     <div className="mt-4 sm:mt-0 sm:ml-16 flex space-x-3">
@@ -185,7 +188,11 @@ export default function Admin() {
                   </div>
                 </div>
               ) : (
-                <p>No survey entries found.</p>
+                <div className="px-4 sm:px-6 lg:px-8">
+                  <div className="flex justify-start mb-10">
+                    <p>No survey entries found.</p>
+                  </div>
+                </div>
               )}
             </Suspense>
           )}
