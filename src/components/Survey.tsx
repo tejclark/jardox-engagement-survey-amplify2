@@ -221,7 +221,7 @@ export default function Survey() {
           <button
               type="submit"
               disabled={loading}
-              className="flex w-full justify-center items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 active:ring-2 ring-offset-1 active:ring-indigo-600 disabled:bg-gray-600"
+              className="hover:cursor-pointer disabled:cursor-none flex w-full justify-center items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 active:ring-2 ring-offset-1 active:ring-indigo-600 disabled:bg-gray-600"
             >
               { loading ? <Spinner /> :
               <>

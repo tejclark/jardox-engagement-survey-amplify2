@@ -61,6 +61,11 @@
 
     "comments": "Proszę wskazać tutaj wszelkie komentarze dotyczące pracy w Jardox:",
     "submit": "Prześlij ankietę",
-    "thanks": "Dziękuję. Ankieta zakończony"
+    "thanks": "Dziękuję. Ankieta zakończony",
+
+    "comment": "Comments",
+    "id": "ID",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At"
   }
 }

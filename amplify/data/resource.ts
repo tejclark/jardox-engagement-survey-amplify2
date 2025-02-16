@@ -22,7 +22,6 @@ const schema = a.schema({
       paid_rewarded: a.string().default('-- Not Set --'),
       happy_facilities: a.string().default('-- Not Set --'),
       recommend_jardox: a.string().default('-- Not Set --'),
-      handle_food_statements: a.string().default('-- Not Set --'),
       good_food_safety: a.string().default('-- Not Set --'),
       good_food_safety_job_done: a.string().default('-- Not Set --'),
       jardox_safety_standards: a.string().default('-- Not Set --'),
@@ -30,9 +29,12 @@ const schema = a.schema({
       food_safety_seriously: a.string().default('-- Not Set --'),
       understand_food_safety: a.string().default('-- Not Set --'),
       food_audits: a.string().default('-- Not Set --'),
-      comments: a.string().default('-- Not Set --'),
+      comment: a.string().default('-- Not Set --'),
     })
-    .authorization(allow => [allow.publicApiKey().to(['create'])])
+    .authorization(allow => [
+      allow.publicApiKey().to(['create']),
+      allow.authenticated().to(['list'])
+    ])
 });
 
 export type Schema = ClientSchema<typeof schema>;

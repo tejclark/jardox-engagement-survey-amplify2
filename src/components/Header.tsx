@@ -25,18 +25,20 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex w-full items-center justify-between">
           <div className="flex items-center">
-            <img
-              className="block h-10 w-auto"
-              src="/JARDOX_LOGO_200-1.png"
-              alt="Jardox"
-            />
+            <a href="/">
+              <img
+                className="block h-10 w-auto"
+                src="/JARDOX_LOGO_200-1.png"
+                alt="Jardox"
+              />
+            </a>
           </div>
           <div className="sm:ml-6">
             <ul className="flex space-x-2">
               {languages.map((l) => {
                 return (
                   <li key={l}>
-                    <button onClick={changeLanguage(l)} className={i18n.language === l ? "ring-white ring-2 block p-0.5 rounded-full" : "block p-0.5 rounded-full"}>
+                    <button onClick={changeLanguage(l)} className={i18n.language === l ? "ring-white ring-2 block p-0.5 rounded-full cursor-pointer" : "block p-0.5 rounded-full cursor-pointer"}>
                       <img src={flags[l]} alt={l} className="w-6 h-6" />
                       <div className="sr-only">{l}</div>
                     </button>

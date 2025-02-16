@@ -61,6 +61,11 @@
 
     "comments": "Vă rugăm să indicați aici orice comentarii pe care le aveți despre lucrul la Jardox:",
     "submit": "Trimite sondaj",
-    "thanks": "Mulțumesc. Sondaj finalizat !"
+    "thanks": "Mulțumesc. Sondaj finalizat !",
+
+    "comment": "Comments",
+    "id": "ID",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At"
   }
 }

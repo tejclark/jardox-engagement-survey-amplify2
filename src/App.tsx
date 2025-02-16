@@ -11,6 +11,7 @@ import {
 
 import { BarsArrowDownIcon } from '@heroicons/react/24/outline'
 
+import Admin from "./components/Admin";
 import Header from "./components/Header";
 import Loading from "./components/Loading"
 import Survey from "./components/Survey";
@@ -22,6 +23,7 @@ function App() {
       <div className="App min-h-screen">
         <Header />
         <Routes>
+          <Route path="/admin" element={<Admin />} />
           <Route path="/submitted" element={<Submitted />} />
           <Route path="/" element={<Root />} />
         </Routes>
@@ -52,7 +54,7 @@ const Root = () => {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 to="survey" spy={true} smooth={true} duration={250}
-                className="cursor-pointer rounded-md bg-white px-6 py-2 text-md font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white flex items-center justify-between space-x-2"
+                className="cursor-pointer rounded-md bg-white px-6 py-2 text-md font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white flex items-center justify-between space-x-2"
               >
                 <span className="whitespace-nowrap">{t('survey.introduction.start_button')}</span>
                 <BarsArrowDownIcon className="w-6 h-6" />
